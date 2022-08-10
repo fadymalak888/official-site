@@ -1,0 +1,157 @@
+/*
+@media only screen and (max-width: 850px){
+.navbar {
+    display: none;
+}
+body{
+    background-color: red;
+}
+}
+
+@media only screen and (max-width:600px){
+   body{
+    background-color: yellow;
+}
+    .header #typing {
+        background-color: transparent;
+        padding: 228px 58px 0 50px;
+    }
+    .header #typing span {
+        font-size: 1.5rem;
+    }
+    .info .info-details{
+        margin: 0;
+    }
+    .info .info-details .aboutMe{
+        margin-bottom: 10px;
+    }
+    .info .info-details .aboutMe:hover{
+        box-shadow: 0 0 0 transparent;
+        transform: translate(0 , 0) !important;
+    
+    }
+    .info .info-details .progress:hover{
+        box-shadow: 0 0 0 transparent;
+        transform: translate(0 , 0) !important;   
+    }
+}
+
+
+*/
+
+
+
+
+/*mobile*/ 
+@media only screen and (min-width: 320px){
+    p{
+        font-size: 0.7rem;
+    }
+    h3{
+        font-size: .8rem;
+    }
+    .navbar {
+        display: none;
+    }
+    .info .info-details{
+     display: block;   
+    }
+    .info .info-details .aboutMe{
+        margin-bottom: 32px;
+    }
+    .info .info-details .progress h2 {
+        font-size: 1.5rem;
+    }
+    .info .info-details .progress .progress-item p {
+        font-size: .7rem;
+    }
+    .header #typing {
+        background-color: transparent;
+        padding: 228px 58px 0 50px;
+    }
+    .header #typing span {
+        font-size: 1.5rem;
+    }
+    .info .info-details{
+        margin: 0;
+    }
+    .info .info-details .aboutMe{
+        margin-bottom: 10px;
+    }
+    .info .info-details .aboutMe:hover{
+        box-shadow: 0 0 0 transparent;
+        transform: translate(0 , 0) !important;
+    
+    }
+    .info .info-details .progress:hover{
+        box-shadow: 0 0 0 transparent;
+        transform: translate(0 , 0) !important;   
+    }
+    .contact-me .card .card-body .front-card .front-details h4{
+        font-size: .7rem;
+    }
+    .contact-me .card .card-body .front-card .front-details .avatar img {
+        width: 100%;
+    }
+    .contact-me .card .card-body .back-card ul li a {
+        font-size: 1.1rem;  
+        line-height: 2.2;
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: 1rem;
+    }
+    .navbar {
+        display: flex;
+    }
+
+}
+/*desktop*/
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 1000px) {
+    p {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+    h3{
+            font-size: 1.2rem;
+          
+    }
+    .navbar {
+        display: flex;
+    }
+    .info .info-details{
+        display: flex;   
+    }
+    .info .info-details .aboutMe:hover{
+        box-shadow: -13px 13px 36px #7495f3c7;
+        transform: translate(0px , -5px) !important;
+    }
+    .info .info-details .progress:hover{
+        box-shadow: 13px 13px 36px #7495f3c7;
+        transform: translate(0px , -5px) !important;
+    }
+    .info .info-details .progress .progress-item p {
+        font-size: 1rem;
+    }
+    .header #typing {
+        background-color: transparent;
+        padding: 213px;
+    }
+    .header #typing span {
+        font-size: 2.5rem;
+    }
+    .contact-me .card .card-body .front-card .front-details h4{
+        font-size: 1rem;
+    }
+    .contact-me .card .card-body .front-card .front-details .avatar img {
+        width: 50%;
+    }
+    .contact-me .card .card-body .back-card ul li a {
+        font-size: 1.3rem;  
+    }
+}
